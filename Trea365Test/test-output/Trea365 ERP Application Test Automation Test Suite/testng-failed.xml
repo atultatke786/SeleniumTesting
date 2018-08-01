@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Trea365 ERP Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Trea365 ERP App Test Cases(failed)">
+    <classes>
+      <class name="com.erp.qa.testcases.BusinessNaturePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="CreateBusinessTypeTest" invocation-numbers="0"/>
+          <include name="DeleteBuTypeTest"/>
+          <include name="EditBusinessTypeTest"/>
+          <include name="VerifySearchBuType"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.erp.qa.testcases.BusinessNaturePageTest -->
+      <class name="com.erp.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyUserNameTest"/>
+          <include name="setUp"/>
+          <include name="verifyNatureOfBusinessLinkTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.erp.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Trea365 ERP App Test Cases(failed) -->
+</suite> <!-- Failed suite [Trea365 ERP Application Test Automation Test Suite] -->
